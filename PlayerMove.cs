@@ -7,7 +7,7 @@ public class PlayerMove : MonoBehaviour
    
     public Rigidbody2D rb;
     public Animator anim;
-    [SerializeField] int HP;
+    public int HP;
     [SerializeField] int AttackDamage; 
     [SerializeField] HealthBar hpBar;
     [SerializeField] float AttackRadius = 5f;
